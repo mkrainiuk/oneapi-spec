@@ -221,8 +221,6 @@ gemm (Buffer Version)
 gemm (USM Version)
 ------------------
 
-.. container::
-
 .. rubric:: Syntax
 
 .. cpp:function::  sycl::event oneapi::mkl::blas::column_major::gemm(sycl::queue &queue, onemkl::transpose transa, onemkl::transpose transb, std::int64_t m, std::int64_t n, std::int64_t k, Ts alpha, const Ta *a, std::int64_t lda, const Tb *b, std::int64_t ldb, Ts beta, Tc *c, std::int64_t ldc, const sycl::vector_class<sycl::event> &dependencies = {})

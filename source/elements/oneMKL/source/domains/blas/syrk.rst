@@ -14,7 +14,7 @@ by a general matrix ``A``. The operation is defined as:
 
 .. math::
 
-      C \leftarrrow alpha*op(A)*op(A)^T + beta*C
+      C \leftarrow alpha*op(A)*op(A)^T + beta*C
 
 where:
 

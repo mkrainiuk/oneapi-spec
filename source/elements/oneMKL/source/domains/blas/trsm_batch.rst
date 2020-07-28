@@ -299,7 +299,7 @@ in a and b are given by the ``batch_size`` parameter.
    
    .. rubric:: Return Values
 
-      Output event to wait on to ensure computation is complete.
+   Output event to wait on to ensure computation is complete.
 
 **Strided API**
 
